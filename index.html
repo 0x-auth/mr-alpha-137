@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mr. Alpha 137.036</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
+  :root{
+    --bg: #14100e;
+    --bg-card: #1e1815;
+    --skin: #d9a374;
+    --skin-deep: #b97a4f;
+    --amber: #e8873a;
+    --line: #332a24;
+    --text: #f2e9df;
+    --text-dim: #9c8f83;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .wrap{ max-width: 420px; width: 100%; text-align: center; }
+  .eyebrow{
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    line-height: 0.95;
+    background: linear-gradient(180deg, #fff 0%, var(--skin) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 32px;
+  }
+  .cards{ display: flex; flex-direction: column; gap: 14px; }
+  a.card{
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color .15s ease;
+  }
+  a.card:active{ border-color: var(--amber); }
+  .card .eyebrow2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: var(--amber);
+    margin-bottom: 6px;
+  }
+  .card h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    margin-bottom: 6px;
+    color: var(--skin);
+  }
+  .card p{ font-size: 13px; color: var(--text-dim); line-height: 1.5; }
+  footer{ margin-top: 28px; font-size: 12px; color: var(--text-dim); letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Shoot Prep System</div>
+  <h1>MR. ALPHA<br>137.036</h1>
+  <div class="cards">
+    <a class="card" href="pre-alpha/shoot-prep.html">
+      <div class="eyebrow2">Pre-Alpha</div>
+      <h2>Prep Timeline</h2>
+      <p>Countdown checklist for skin, water, and pump timing before the shoot.</p>
+    </a>
+    <a class="card" href="post-alpha/live-light-guide.html">
+      <div class="eyebrow2">Post-Alpha</div>
+      <h2>Live Light Guide</h2>
+      <p>Real-time camera overlay showing where light should sit for your pose.</p>
+    </a>
+  </div>
+  <footer>darmiyan · the space between prep and shoot</footer>
+</div>
+</body>
+</html>
