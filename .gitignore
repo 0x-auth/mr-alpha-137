@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+*.task
+test_*.jpg
+*_result*.jpg
+.DS_Store
